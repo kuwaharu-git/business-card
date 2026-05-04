@@ -3,11 +3,11 @@
 const cardConfig = {
   // 表面の画像ファイル名 (public/image/ フォルダ内)
   // Front image filename (inside public/image/ folder)
-  frontImage: "front.svg",
+  frontImage: "front.png",
 
   // 裏面の画像ファイル名 (public/image/ フォルダ内)
   // Back image filename (inside public/image/ folder)
-  backImage: "back.svg",
+  backImage: "back.png",
 } as const;
 
 export default cardConfig;
