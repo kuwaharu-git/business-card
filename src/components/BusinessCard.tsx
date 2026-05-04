@@ -37,18 +37,6 @@ export default function BusinessCard({ frontImage, backImage }: BusinessCardProp
           </div>
         </div>
       </div>
-
-      <button
-        className="flip-button"
-        onClick={handleFlip}
-        aria-label={isFlipped ? "表面を表示" : "裏面を表示"}
-      >
-        {isFlipped ? "表面を見る" : "裏返す"}
-      </button>
-
-      <p className="hint-text">
-        {isFlipped ? "クリック / タップで表面を表示" : "クリック / タップで裏返す"}
-      </p>
     </div>
   );
 }

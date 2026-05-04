@@ -8,9 +8,6 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="app-header">
-        <h1>名刺</h1>
-      </header>
       <main className="app-main">
         <BusinessCard frontImage={frontSrc} backImage={backSrc} />
       </main>
